@@ -3,7 +3,7 @@ pipeline{
       stages{
           
           stage('Build'){
-             step {sh 'ant -f buld.xml -v'}
+             step {sh 'print env -v'}
           }
           
           
